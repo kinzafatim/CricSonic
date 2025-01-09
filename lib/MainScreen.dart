@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'AddMatch.dart';
+import 'bookground.dart';
+import 'PlayerProfileScreen.dart';
+import 'TournamentsScreen.dart';
 
 // Main Screen with Bottom Navigation
 class MainScreen extends StatefulWidget {
@@ -76,7 +79,9 @@ class HomePage extends StatelessWidget {
                   title: "Player Profiles",
                   icon: Icons.account_circle,
                   onTap: () {
-                    // Navigate to Player Profiles
+                    Navigator.push( context, MaterialPageRoute(builder: (context) => PlayerProfileScreen(),
+                    ),
+                    );
                   },
                 ),
                 HomeOption(
@@ -92,14 +97,18 @@ class HomePage extends StatelessWidget {
                   title: "Book Ground",
                   icon: Icons.location_city,
                   onTap: () {
-                    // Navigate to Book Ground
+                    Navigator.push( context, MaterialPageRoute(builder: (context) => CricketGroundListScreen(),
+                    ),
+                    );
                   },
                 ),
                 HomeOption(
                   title: "Tournaments",
                   icon: Icons.emoji_events,
                   onTap: () {
-                    // Navigate to Tournaments
+                    Navigator.push( context, MaterialPageRoute(builder: (context) =>TournamentsScreen(),
+                    ),
+                    );
                   },
                 ),
               ],

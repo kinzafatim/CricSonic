@@ -1,8 +1,21 @@
 import 'package:flutter/material.dart';
 import 'SplashScreen.dart';
+// import 'package:firebase_core/firebase_core.dart';
+// import 'firebase_options.dart';
+
 void main() {
   runApp(CrickStatsApp());
 }
+
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   try {
+//     await Firebase.initializeApp();
+//   } catch (e) {
+//     print("Firebase initialization error: $e");
+//   }
+//   runApp(CrickStatsApp());
+// }
 
 class CrickStatsApp extends StatelessWidget {
   @override

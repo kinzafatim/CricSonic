@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346013287622",
+    "project_id": "cricapp-58a31",
+    "storage_bucket": "cricapp-58a31.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346013287622:android:b5ed6f45c6efbb36a243c7",
+        "android_client_info": {
+          "package_name": "com.crics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzbVD7VIcQs_IzaurqOtpf1zPZzubK2fw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
